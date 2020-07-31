@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Intro to Bitcoin</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Introduction to cryptocurrency">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="Web design blog, Blockchain blog, bitcoin">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="fullscreen-bg">
+			<video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+				<source src="bckvd2.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div style="background: #404040; margin-bottom: 0px" class="jumbotron">
+			<h1 style="text-align: center">Introduction to Bitcoin and Blockchain</h1>
+		</div>
+		<div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="index.html"><img src="images/home.png" class="img-thumbnail"></a></button>
+				<div class="dropdown-content">
+					<a href="subpage1.html">Blockchain</a>
+					<a href="subpage2.html">How it all works?</a>
+					<a href="subpage3.html">Download Bitcoin Whitepaper</a>
+					<a href="subpage6.php">Feedback</a>
+				</div>
+			</div>
+			<div class="topnav">
+				<a class="active" href="index.html">Bitcoin</a>
+				<a href="subpage1.html">Blockchain</a>
+				<a href="subpage2.html">How it works?</a>
+				<div class="topnav-right">
+					<a href="subpage3.html">Download Bitcoin Whitepaper</a>
+					<a href="subpage4.php">Feedback</a>
+				</div>
+			</div>
+			<hr>
+			<p style="font-size: 19px; text-decoration: dotted underline"><strong>A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution</strong>. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent <u><em>double-spending</em>.</u>
+			</p>
+			<hr>
+			<h3 style="text-align: center; text-decoration: underline; padding-bottom: 4px">In a Nutshell</h3>
+			<p class="lead">The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest <a href="https://en.bitcoin.it/wiki/Proof_of_work" target="_blank"><u>proof-of-work</u></a> chain as proof of what happened while they were gone.</p>
+			<h3 style="text-align: center; text-decoration: underline; padding-bottom: 7px">Some points to note :</h3>
+			<div class="container mt-3">
+				<ul class="list-group">
+					<li class="list-group-item d-flex justify-content-between align-items-center">Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments.<span class="badge badge-primary badge-pill">1</span></li>
+					<li class="list-group-item d-flex justify-content-between align-items-center"> the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model.<span class="badge badge-primary badge-pill">2</span></li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. <span class="badge badge-primary badge-pill">3</span></li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for nonreversible services. <span class="badge badge-primary badge-pill">4</span></li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">With the possibility of reversal, the need for trust spreads.<span class="badge badge-primary badge-pill">5</span></li>
+				</ul>
+			</div>
+			<br>
+			<h3 style="text-align: center; text-decoration: underline; padding-bottom: 7px">What the system needs :</h3>
+			<ol style="padding-top: 2px">
+				<div>
+					<li>An electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party.</li>
+					<li>Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers.</li>
+					<section><li>We propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions.</li>
+					<li> The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.</li></section>
+				</div>
+			</ol>
+			<hr>
+			<div class="center">
+				<a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank">
+					<div class="shadow1">
+						<img src="images/btcpop1.jpg" alt="mysampleimage" style="width:100%">
+						<div class="container1">
+							<p>Bubble Popper</p>
+						</div>
+					</div>
+				</div>
+			</a>
+			<hr>
+			<h4 style="text-decoration: underline">Message in Genesis block by Satoshi Nakamoto</h4>
+		<blockquote cite="https://coindiligent.com/interesting-quotes-satoshi-nakamoto"><em>The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.</em></blockquote>
+		<hr>
+		<footer id="main-footer">
+			<p>Copyright &copy; 2019, My Webpage</p>
+		</footer>
+	</body>
+</html>

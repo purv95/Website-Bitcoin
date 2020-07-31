@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Blockchain</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Blockchain blog by 230501">
+	<meta name="keywords" content="Web design blog, Blockchain blog, bitcoin">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		p + ol {
+			text-decoration: underline dotted;
+		}
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+		tr:nth-child(odd) {
+			background-color: #dcdcdc;
+		}
+		#borderimg {
+			border: 10px solid transparent;
+			padding: 15px;
+			border-image-source: url(border1.png);
+			border-image-slice: 30;
+		}
+		.container{
+			max-width: 1250px;
+			column-width: 15em;
+			column-gap: 7em;
+			padding: 5px;
+			column-rule-style: solid;
+			column-rule-color: dimgray;
+		}
+	</style>
+</head>
+<body>
+	<div class="fullscreen-bg">
+		<video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+			<source src="bckvd2.mp4" type="video/mp4">
+			</video>
+		</div>
+		<header id="main-header">
+			<h1>What is Blockchain and How it works?</h1>
+		</header>
+		<div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="index.html"><img src="images/home.png" class="img-thumbnail"></a></button>
+				<div class="dropdown-content">
+					<a href="subpage1.html">Blockchain</a>
+					<a href="subpage2.html">How it all works?</a>
+					<a href="subpage3.html">Download Bitcoin Whitepaper</a>
+					<a href="subpage4.html">Feedback</a>
+				</div>
+			</div>
+			<div class="topnav">
+				<a class="active" href="index.html">Bitcoin</a>
+				<a href="subpage1.html">Blockchain</a>
+				<a href="subpage2.html">How it works?</a>
+				<div class="topnav-right">
+					<a href="subpage3.html">Download Bitcoin Whitepaper</a>
+					<a href="subpage4.html">Feedback</a>
+				</div>
+			</div>
+			<hr>
+			<section>
+				<h2 style="text-align: left; padding-left: 141px"><u><em>Introduction</em></u></h2>
+				<hr>
+				<div class="container">
+					<p>Throughout  time, the  information and  communication technology  has undergone  numerous transformations  for facilitating easier, quicker, efficient and secure sharing and exchange of data, information, and funds in assorted ways. With the emergence of the Internet, digital communications emerged, empowering all forms of data and information interchange through online transactions, such as financial transactions for making payments and receiving funds.The entire transactional and communication system goes through a trusted intermediary which not only guarantees safe and secure delivery, but in case of financial transactions, ensures accurate changes being reflected in multiple accounts. This trusted party is questionable in case of any failures in updating data, delays in delivery or fraud. Beyond payment systems that are based on fiat currency, the growing use of digitalcurrency allows for faster, more flexible, and more innovative payments and ways infinancing goods and services. One digital currency, however, stands out among the rest.Bitcoin is one of the most well-known digital currencies today. To be specific, Bitcoin isacryptocurrency, which is a subset of what is generally known as a digital currency. Bitcoinis a unique cryptocurrency that is widely considered to be the first of its kind. Like manycreated after it, Bitcoin uses the power of the Internet to process its transactions.</p>
+				</div>
+				<hr>
+				<p>
+					<div style="text-align: left; text-transform: uppercase; padding-bottom: 5px; padding-left: 10px"><u><em>But with just a single network controller multiple questions arise:</u></em></div>
+					<ol>
+						<li>What if this trusted party becomes rogue and cannot be trusted? </li>
+						<li>What if it is hacked and an attacker gets hold of all the data? This intermediary here acts as a single point of failure.</li>
+						<li>Each time an intermediary is used, additional delay in communication occur. Why not communicate peer-to-peer?
+						</li>
+						<li>The authenticity and validation of each transaction is very important, but can the intermediary be trusted?
+						</li>
+					</ol>
+				</p>
+				<p id="borderimg"><strong>
+					The solution to all the above problems is provided by the blockchain, the underlying technology invented by Satoshi Nakamoto  (considered  a  pseudonym)  in introducing  the  first  ever  decentralised cryptocurrency called as ‘Bitcoin’. Bitcoin exchange and transfer occur by means of a shared distributed ledger, which records the details of every transaction occurred among the network  participants  without  involving  any trusted centralized party. The single copy of the ledger resides in synchronization with all the involved  parties, thus  reducing  the risk  of a single point of failure.
+				</p></strong>
+			</section>
+			<aside>
+				<br>
+				<div style="text-align: center; padding: 200px; padding-top: 25px; padding-bottom: 5px;">
+					<table class="table table-bordered table">
+						<caption class="text-center"><u><strong>Current Financial System features graded against Bitcoin</u></strong></caption>
+						<thead class="thead-dark">
+							<tr>
+								<th>Features</th>
+								<th>Gold</th>
+								<th>FIAT-cash</th>
+								<th>FIAT-digital</th>
+								<th>Bitcoin-BTC</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Fungible (interchangeable)</td>
+								<td>A</td>
+								<td>A</td>
+								<td>F</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Untraceable (private)</td>
+								<td>A</td>
+								<td>A</td>
+								<td>F</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Durable</td>
+								<td>A+</td>
+								<td>C</td>
+								<td>B</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Portable</td>
+								<td>D</td>
+								<td>B</td>
+								<td>A</td>
+								<td>A+</td>
+							</tr>
+							<tr>
+								<td>Irreversible payments</td>
+								<td>A</td>
+								<td>A</td>
+								<td>F</td>
+								<td>A+</td>
+							</tr>
+							<tr>
+								<td>Divisible</td>
+								<td>C</td>
+								<td>B</td>
+								<td>A</td>
+								<td>A+</td>
+							</tr>
+							<tr>
+								<td>Scarce (inflation proof)</td>
+								<td>A</td>
+								<td>F</td>
+								<td>F</td>
+								<td>A+</td>
+							</tr>
+							<tr>
+								<td>Verifiable (non-counterfeitable)</td>
+								<td>A</td>
+								<td>B</td>
+								<td>A+</td>
+								<td>A+</td>
+							</tr>
+							<tr>
+								<td>Established history</td>
+								<td>A+</td>
+								<td>A</td>
+								<td>B</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Censorship-resistant (decentralized)</td>
+								<td>B</td>
+								<td>C</td>
+								<td>F</td>
+								<td>A</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<br>
+				<hr>
+			</aside>
+			<footer id="main-footer">
+				<p>Copyright &copy; 2019, My Webpage</p>
+			</footer>
+		</body>
+		</html>
